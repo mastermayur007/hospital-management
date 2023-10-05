@@ -1,0 +1,67 @@
+.total-customer-table{
+    margin: 15px;
+    overflow-x: auto;
+    width: 100%;
+    font-size: 18px;
+    color:black
+}
+
+table{
+    color: whitesmoke;
+    width: 97%;
+    background-color:#363D42;
+    text-align: center;
+}
+td{
+    color: rgb(226, 212, 212);
+    padding: 10px;
+    border-bottom: 2px solid rgb(83, 80, 80);
+    max-width: 344px;
+    height: auto;
+    text-wrap: wrap;
+}
+th{
+    height: 2.3rem;
+    /* padding: 0; */
+    font-size: 1.2rem;
+    background-color: rgb(228, 96, 14);
+}
+button{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: orangered;
+    color:white;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+.icon-holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-holder>:nth-child(1),
+.icon-holder>:nth-child(2),
+.icon-holder>:nth-child(3){
+    cursor: pointer;
+}
+
+
+/* /POP BOX FOR DELETE CONFIRM */
+.confirm-delete{
+    border-radius: 10px;
+    position: fixed;
+    background-color: #242933;
+    height: 300px;
+    width: 400px;
+    z-index: 99;
+    margin-left: 19rem;
+    margin-top: 6rem;
+    box-shadow: 9px 9px 20px 4px #97898942;
+    text-align: center;
+    padding-top: 5rem;
+    box-sizing: border-box;
+}
+.confirm-delete>button{
+    width: 8rem;
+
+}

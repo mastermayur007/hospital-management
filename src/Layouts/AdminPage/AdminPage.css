@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.admin-page{
+  background:#242933;
+  min-height: 100vh;
+}
+.main-body{
+    margin-left: 16rem;
+    padding: 10px;
+    color: white;  
+    padding-top: 3.4rem;
+}

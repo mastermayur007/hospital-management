@@ -1,0 +1,10 @@
+.user-home{
+    height: 100%;
+    position:relative;
+    background:#242933;
+    color: white;
+    padding: 1rem;
+}
+.user-content{
+    margin-top: 50px;
+}

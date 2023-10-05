@@ -1,0 +1,15 @@
+.admin-topbar{
+    position: fixed;
+    right: 3rem;
+    top: 0.5rem;
+    height: 3rem;
+    }
+div>button{
+    margin-left: 1rem;
+    padding: 10px;
+    background-color: orangered;
+    color:white;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}

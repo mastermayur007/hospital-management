@@ -1,0 +1,116 @@
+.update-customer-form{
+    background-color: #363D42;
+    border-radius: 1rem;
+    width: 80%;   
+    color: white;
+    padding: 15px;
+   margin-left:8rem;
+   /*  */
+   position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 6%;
+    box-shadow: 0px 0px 15px 0px rgba(247, 194, 103, 0.831);
+   /*  */
+}
+.form{
+    width: 99%;
+    height: auto;
+}
+.try-input{
+    /* height: 80px; */
+    /* width: 100%; */
+    width: auto;
+    height: auto;
+}
+
+input,select{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 12px;
+}
+input::placeholder,select::placeholder{
+    color: rgb(255, 255, 255);
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+.update-customer-form>form>.form>div:nth-of-type(1),
+.update-customer-form>form>.form>div:nth-of-type(2),
+.update-customer-form>form>.form>div:nth-of-type(3),
+.update-customer-form>form>.form>div:nth-of-type(4),
+.update-customer-form>form>.form>div:nth-of-type(5),
+.update-customer-form>form>.form>div:nth-of-type(6)
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-left-side,.form-right-side{
+    margin-top: 10px;
+    min-width: calc((0.48)*100%);
+    width: auto;
+    /* width: calc((0.48)*100%);
+    width: calc((0.48)*100%); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#birthdate,
+#age,
+#height,
+#weight,
+#joindate,
+#enddate,
+#feespaid,
+#feesbalance,
+#name,
+#mobilenum,
+#bmi,
+#address{
+    border-radius: 2px;
+    width: 60%;
+    border: 1px solid white;
+    background-color: #242933;
+}
+.save-member{
+    align-items: center;
+    width: 10rem;
+    padding: 10px;
+    background-color: orangered;
+    color:white;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+.form>p{
+    text-align: center;
+}
+.form>p>button{
+    cursor: pointer;
+    margin: 0 1rem 0 1rem;
+}
+select{
+    border-radius: 2px;
+    width: 64.4%;
+    border: 1px solid white;
+    background-color: #242933;
+}
+.update-head{
+    display: flex;
+    align-items: center;
+}
+.update-head>h1{
+    width: 96%;
+}
+.update-head>:nth-child(2){
+    height: 100%;
+    width: 2.8%;
+    font-size: 1rem;
+    cursor: pointer;
+}
