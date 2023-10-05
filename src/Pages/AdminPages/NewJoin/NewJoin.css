@@ -1,0 +1,26 @@
+.pending-payment-table{
+    margin: 15px;
+    overflow-x: auto;
+    width: 100%;
+    font-size: 18px;
+}
+table{
+    color: whitesmoke;
+    width: 97%;
+    background-color:#363D42;
+    text-align: center;
+}
+th{
+    height: 2.3rem;
+    /* padding: 0; */
+    font-size: 1.2rem;
+    background-color: rgb(228, 96, 14);
+}
+td{
+    color: rgb(226, 212, 212);
+    padding: 10px;
+    border-bottom: 2px solid rgb(83, 80, 80);
+    max-width: 344px;
+    height: auto;
+    text-wrap: wrap;
+}
